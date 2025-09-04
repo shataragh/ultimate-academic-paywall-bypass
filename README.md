@@ -1,15 +1,44 @@
-# Ultimate Academic Paywall Bypass 🚀
+# 🧠 Ultimate Academic Paywall Bypass
 
-A Python-based tool to locate open-access versions of academic papers using DOI. It queries trusted APIs and scrapes scholarly platforms to help researchers bypass paywalls ethically and legally.
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Open Access](https://img.shields.io/badge/Open%20Science-Supported-orange)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-## Features
-- ✅ DOI validation and extraction
-- 🔁 Retry logic with exponential backoff
-- 🧠 Multi-source search: Unpaywall, Google Scholar, CORE, bioRxiv, Zenodo, ResearchGate, ACS, Wayback Machine
-- 🕵️ Author profile search via Google
-- ⚠️ Optional Sci-Hub fallback (use with caution)
+> 🚀 A smart, multi-source DOI resolver that helps researchers ethically access academic papers from open-access platforms and archives.
 
-## Installation
+---
+
+## 📚 Overview
+
+Academic research should be accessible to everyone. This Python tool helps bypass paywalls **legally and ethically** by searching across trusted open-access repositories, author uploads, and archival services. It uses robust scraping, API calls, and intelligent heuristics to locate full-text PDFs of scholarly articles.
+
+---
+
+## ✨ Features
+
+- 🔍 **DOI Validation & Extraction**  
+  Accepts raw DOIs or DOI URLs and cleans them for processing.
+
+- 🌐 **Multi-Source Search**  
+  Queries APIs and scrapes platforms like:
+  - Unpaywall
+  - CORE
+  - bioRxiv
+  - Zenodo
+  - ResearchGate
+  - Wayback Machine
+  - Author profiles via Google
+
+- 🔁 **Retry Logic & Logging**  
+  Handles timeouts and failures gracefully with exponential backoff and logs all activity to `paywall_bypass.log`.
+
+- ⚠️ **Optional Sci-Hub Fallback**  
+  Included for educational purposes only. Use responsibly and at your own discretion.
+
+---
+
+## 🛠️ Installation
 
 ```bash
 git clone https://github.com/yourusername/ultimate-academic-paywall-bypass.git
