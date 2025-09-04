@@ -13,6 +13,12 @@
 
 Academic research should be accessible to everyone. This Python tool helps bypass paywalls **legally and ethically** by searching across trusted open-access repositories, author uploads, and archival services. It uses robust scraping, API calls, and intelligent heuristics to locate full-text PDFs of scholarly articles.
 
+## 📸 Screenshot
+
+<p align="center">
+  <img src="https://i.postimg.cc/VsHJP9kY/Untitled.png" alt="Screenshot of the program" width="600">
+</p>
+
 ---
 
 ## ✨ Features
